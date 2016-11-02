@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.test.johpo.lianxi1101.MainActivity"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="跳转"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/e5"
+        android:scaleType="matrix"/>
+
+
+    <ImageView
+        android:id="@+id/imageView02_id"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/e4"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/textView01_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Large Text"/>
+
+</LinearLayout>
